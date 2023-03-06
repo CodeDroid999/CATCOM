@@ -1,0 +1,10 @@
+{
+    "development": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb+srv://johnmwegah:zkituVgIBqTyAQs1@catcomdatabase.p8yfilu.mongodb.net/CATCOMDb"
+    },
+    "production": {
+        "PORT": 80,
+        "MONGODB_URI": "mongodb://xxxxx/DB_Name"
+    }
+}

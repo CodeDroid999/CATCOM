@@ -1,5 +1,10 @@
 import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,12 +36,14 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     SignUpComponent,
     LogInComponent,
     FootnoteComponent,
-    DashboardComponent
+    DashboardComponent,
+   
    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
    
   ],
   providers: [],
