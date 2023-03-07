@@ -1,10 +1,52 @@
-<!--header-->
-<app-navbar></app-navbar>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+                <a class="navbar-brand nav-link" href="#">
+            <img src="./assets/images/jkuatcatcomlogo-NoBg.png" alt="Logo" width="30" height="30"
+                class="d-inline-block align-text-center">
+            CATCOM
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="" routerLinkActive="active-link"
+                        [routerLinkActiveOptions]="{exact:true}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="about" routerLinkActive="active-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="events" routerLinkActive="active-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="contacts" routerLinkActive="active-link">
+                        <p>Contact Us</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="blog" routerLinkActive="active-link">Blog </a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link btn btn-outline-primary me-2" routerLink="register"
+                        routerLinkActive="active-link"><i class="bi bi-box-arrow-in-right"></i>Sign Up</a>
+                </li>
+                <li class="nav-item">
 
+                    <a class="nav-link btn btn-outline-primary me-2" routerLink="register"
+                        routerLinkActive="active-link">Sign Up</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-primary" routerLink="sign-in"
+                        routerLinkActive="active-link">Login</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
 
 <router-outlet></router-outlet>
 
 <!--copyright footnote-->
 <app-footnote></app-footnote>
-
-

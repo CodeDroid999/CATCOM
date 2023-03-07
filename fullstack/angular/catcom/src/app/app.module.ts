@@ -18,7 +18,9 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { FootnoteComponent } from './sharepage/footnote/footnote.component';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { ForgotPasswordComponent } from './sharepage/forgot-password/forgot-password.component';
+
+
 
 
 
@@ -36,15 +38,15 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     SignUpComponent,
     LogInComponent,
     FootnoteComponent,
-    DashboardComponent,
+    ForgotPasswordComponent,
    
-   
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-   
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,6 @@
 .row{
     min-width: 100%;
 }
+footer{
+    bottom:0px;
+}
