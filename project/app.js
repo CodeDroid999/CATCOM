@@ -13,8 +13,6 @@ const rtsIndex = require('./routes/index.router');
 var app = express();
 
 // middleware
-
-
 app.use(bodyParser.json());
 app.use(cors());
 app.use('/api', rtsIndex);
@@ -60,5 +58,3 @@ function checkDB(Error)
 });
 
 */
-
-
