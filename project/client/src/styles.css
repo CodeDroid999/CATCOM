@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+/*global styles, import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: var(--white);
+    font-family: "Poppins", sans-serif;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+  a{
+    text-decoration: none;
+    color:#ffffff;
+  }
+  
+  :root {
+    --red: red;
+    --asphalt: #00000057;
+    --dark-blue: #1e1e1e;
+    --light-blue: #244674;
+    --white: #fff;
+    --light-gray: #d9d9d9;
+    --dark-green: #073a4b;
+    --light-green: #92b0ba;
+    --light-x-green: #577681;
+    --catcom-blue: #090D32;
+  
+    --width-sm: 576px;
+    --width-md: 768px;
+    --width-lg: 992px;
+    --width--xl: 1200px;
+  }
+
+
+
