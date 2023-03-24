@@ -8,6 +8,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { AlumniComponent } from './components/alumni/alumni.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NotFoundComponent,
     ContactsComponent,
     AlumniComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
