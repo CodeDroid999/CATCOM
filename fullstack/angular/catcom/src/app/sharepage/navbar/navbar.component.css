@@ -1,4 +1,4 @@
-.navbar {
+.navigation{
     background-color: var(--catcom-blue);
     display: flex;
     justify-content: space-between;
@@ -16,14 +16,14 @@ img {
     padding-right: 1rem;
 }
 
-.navbar-expand-sm .navbar-nav .nav-link.active-link {
+.navbar-expand-sm .navbar-nav .nav-link .active-link {
     background-color: var(--catcom-blue);
     color: rgba(247, 195, 7, 0.982);
     font-weight: bold;
 }
 a .navlink :hover {
     background-color:white;
-    color: rgba(247, 7, 7, 0.982);
+    color:  rgba(247, 195, 7, 0.982);
     font-weight: bold;
 }
 

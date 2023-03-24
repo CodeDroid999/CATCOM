@@ -1,0 +1,59 @@
+
+
+
+.navbar{
+    background-color: var(--catcom-blue);
+    color:white;
+}
+
+
+
+
+
+
+
+.navigation{
+    background-color: var(--catcom-blue);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 4rem;
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link .active-link {
+    background-color: var(--catcom-blue);
+    color: rgba(247, 195, 7, 0.982);
+    font-weight: bold;
+}
+a .navlink :hover {
+    background-color:white;
+    color: rgba(247, 7, 7, 0.982);
+    font-weight: bold;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: white;
+    padding-bottom: 0%;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    top: 0px;
+    right: 0px;
+}
+.collapse .navbar-collapse{
+    right:0px
+}
