@@ -9,6 +9,7 @@ import { ContactsComponent } from './components/contacts/contacts.component';
 import { AlumniComponent } from './components/alumni/alumni.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './components/about/about.component';
+import { EventsComponent } from './components/events/events.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { AboutComponent } from './components/about/about.component';
     ContactsComponent,
     AlumniComponent,
     AboutComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,
