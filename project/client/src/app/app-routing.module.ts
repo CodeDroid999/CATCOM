@@ -8,6 +8,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
 const routes: Routes = [
+  {path: "home", component: HomeComponent},
   {path: "events", component: AboutComponent},
   {path: "about-us", component: AboutComponent},
   {path: "alumni", component: AlumniComponent},
