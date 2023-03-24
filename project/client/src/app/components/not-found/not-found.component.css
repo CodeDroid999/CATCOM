@@ -192,9 +192,6 @@ li a:hover {
 */
 }
 
-.earth-moon{
-    
-}
 
 .object_astronaut{
     animation: rotate-astronaut 200s infinite linear both alternate;
