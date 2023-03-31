@@ -6,12 +6,13 @@ import { ContactsComponent } from './components/contacts/contacts.component';
 import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { AdminModule } from './modules/admin/admin.module';
+import { EventsComponent } from './components/events/events.component';
 
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
   {path: "about-us", component: AboutComponent},
-  {path: "events", component: AboutComponent},  
+  {path: "events", component: EventsComponent},  
   {path: "alumni", component: AlumniComponent},
   { path: 'contacts', component: ContactsComponent},
   { path: 'admin', loadChildren: ()=>import("./modules/admin/admin.module").then((m)=>AdminModule)},
