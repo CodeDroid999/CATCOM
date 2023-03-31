@@ -12,6 +12,9 @@ import { AboutComponent } from './components/about/about.component';
 import { EventsComponent } from './components/events/events.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LogInComponent } from './components/log-in/log-in.component';
 
 
 @NgModule({
@@ -25,6 +28,9 @@ import { FooterComponent } from './components/footer/footer.component';
     EventsComponent,
     NavbarComponent,
     FooterComponent,
+    BlogComponent,
+    RegisterComponent,
+    LogInComponent,
   ],
   imports: [
     BrowserModule,
