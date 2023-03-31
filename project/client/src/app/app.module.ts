@@ -16,6 +16,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LogInComponent } from './components/log-in/log-in.component';
 import { FootnoteComponent } from './components/footnote/footnote.component';
+import { DevelopersComponent } from './components/developers/developers.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { FootnoteComponent } from './components/footnote/footnote.component';
     RegisterComponent,
     LogInComponent,
     FootnoteComponent,
+    DevelopersComponent,
   ],
   imports: [
     BrowserModule,
