@@ -1,0 +1,49 @@
+.icons {
+    background-color: var(--catcom-blue);
+    margin-top: 0%;
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+
+.icons1 {
+    background-color: rgba(19, 18, 18, 0.767);
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+
+.contacts-details {
+    background-color: var(--catcom-blue);
+}
+
+.text-white {
+    padding-top: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img {
+    width: 3rem;
+    height: 3rem;
+   
+}
+
+
+
+
+
+.unstyled-list {
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.quick-links{
+    text-decoration: none;
+    color: red;
+}
+.col{
+    font-size: 0.7rem;;
+}

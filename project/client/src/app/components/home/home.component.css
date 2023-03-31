@@ -1,0 +1,13 @@
+.mask{
+    margin:0px;
+}
+.content-bg{
+    margin:0px;
+    padding:0px;
+    background-color: blue;
+    position:relative;
+    z-index:5;
+}
+.welcome-message{
+    z-index: 10;
+}
