@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-sm fixed-top">
+    <div class="container justify-content-between">
+        <div class="d-flex align-items-start-sm">
+            <a class="navbar-brand" routerLink="">
+                <img src="./assets/images/jkuatcatcomlogo-NoBg.png" alt="Logo" class="d-inline-block">
+                CATCOM
+            </a>
+        </div>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="" routerLinkActive="active-link"
+                        [routerLinkActiveOptions]="{exact:true}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="about" routerLinkActive="active-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="events" routerLinkActive="active-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="contacts" routerLinkActive="active-link"><p>Contact Us</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="blog" routerLinkActive="active-link">Blog </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="register" routerLinkActive="active-link"><i class="bi bi-box-arrow-in-right"></i>Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="sign-in" routerLinkActive="active-link"><i class="bi bi-box-arrow-in-right"></i>LogIn</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

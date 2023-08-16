@@ -1,0 +1,85 @@
+body {
+    background-color: ghostwhite;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+h1 {
+    font-family: helvetica;
+}
+
+p1 {
+    font-family: tahoma;
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+}
+
+.stack-cards {
+    --stack-cards-gap: var(--space-sm);
+    --stack-cards-item-ratio: 10/1;
+}
+
+.stack-cards__item {
+    position: relative;
+    position: sticky;
+    top: var(--space-md);
+    height: 0;
+    padding-bottom: calc(100% / (var(--stack-cards-item-ratio)));
+    transform-origin: center top;
+}
+
+.stack-cards__item>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.flex-flex-center {
+    background-color: rgb(5, 114, 100);
+    font-family: helvetica;
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    text-indent: 20px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Helvetica;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Helvetica;
+}
+
+dd {
+    font-size: 20px;
+    font-family: tahoma;
+    margin: 10px;
+}
+
+.objectives {
+    font-size: 25px;
+    font-weight: 200px;
+    font-family: Helvetica;
+}
+
+p {
+    font-family: tahoma;
+    font-size: 20px;
+    margin-top: 10px;
+}

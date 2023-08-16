@@ -1,0 +1,122 @@
+
+
+.hero-container {
+  position: relative;
+  max-height: 200px;
+}
+
+.page-title{
+  padding-top:50px;
+}
+
+.mask {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top:0px;
+  min-width: 100%;
+  background: hsla(0, 0%, 0%, 0.6);
+  height: inherit;
+}
+
+.bg-image {
+  z-index: -2;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+
+
+.card{
+  margin:3px;
+  border-radius: 10px;
+  
+}
+
+
+.card-body{
+  border-radius: 10px;
+  
+}
+
+.choir{
+  padding:15px;
+}
+
+.scc-card,.choir-card{
+  background-color: var(--catcom-blue);
+}
+
+
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.card:hover .card-overlay {
+  display: block;
+}
+
+.card-overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+.st-Romanus-t-m {
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+}
